@@ -1,5 +1,6 @@
 const run = document.getElementById("run");
 const container = document.getElementById("container");
+const container2 = document.getElementById("container2");
 const btn = document.getElementById("button");
 
 var count = 0
@@ -9,10 +10,11 @@ btn.addEventListener("click", function() {
 });
 
 run.addEventListener("click", function() {
-    if(count == 0) {
+    if(count == 1) {
         container.style.display = "block";
+        
     }
     else {
-        container.style.display = "block";
+        container2.style.display = "block";
     }
 });

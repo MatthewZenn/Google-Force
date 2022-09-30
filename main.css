@@ -18,6 +18,15 @@ header {
     margin-right: 10px;
 }
 
+.hamburger2 {
+    display: grid;
+    height: 10px;
+    width: 25px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
 span {
     background-color: grey;
     width: 100%;
@@ -151,6 +160,16 @@ footer h2 {
     display: none;
 }
 
+#container2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+    display: none;
+}
+
 .searchbar2 {
     position: fixed;
     top: 15%;
@@ -167,6 +186,72 @@ footer h2 {
     position: fixed;
     top: 5%;
     left: 50%;
-    width: 30%;
+    width: 35%;
     transform: translate(-50%, -50%);
+}
+
+.pages {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    top: 22%;
+    overflow: hidden;
+}
+
+.tabs {
+    font-size: 10pt;
+    left: 20px;
+}
+
+#current {
+    color: rgb(130, 184, 255);
+    border-bottom: 2px solid rgb(130, 184, 255);
+}
+
+.image1 {
+    position: relative;
+    color: white;
+    border: none;
+    width: 95%;
+    margin-bottom: -5px;
+    left: 2.5%;
+}
+
+h3 {
+    position: relative;
+    margin: 5px;
+    top: 0%;
+    font-size: 10pt;
+}
+
+h4 {
+    color: rgb(109, 109, 109);
+    margin-top: -5px;
+    margin-left: 5px;
+    font-weight: 300;
+    font-size: 10pt;
+}
+
+.pic {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    left: 0;
+    top: 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+#stext {
+    color: white;
+    position: relative;
+    left: 40px;
+    font-size: 12pt;
 }

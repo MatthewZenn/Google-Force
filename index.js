@@ -11,10 +11,10 @@ btn.addEventListener("click", function() {
 
 run.addEventListener("click", function() {
     if(count == 1) {
-        container.style.display = "block";
+        container2.style.display = "block";
         
     }
     else {
-        container2.style.display = "block";
+        window.open("https://www.google.com/search?q=seven+of+spades", '_self');
     }
 });
